@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class TraingleArea {
 
-	   public static void main(String args[]) {  
+	   public void getArea() {
 		   
 		      Scanner scanner = new Scanner(System.in);
 
@@ -16,6 +16,7 @@ public class TraingleArea {
 
 		      double area = (base* height)/2;
 		      System.out.println("Area of Triangle is: " + area);      
-		   }
+		      System.out.println("***************************************");
+	   } 
 }
 
